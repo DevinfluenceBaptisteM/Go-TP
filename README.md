@@ -1,3 +1,30 @@
+TP cloud - Groupe Antoine MILOUX et Baptiste MABILLE
+
+1. Jusification de l'utilisation du CI/CD
+
+Dans le but de garantire une automatisation et une surveillance continue tout au long du cycle de vie de l'application, nous avons decidé d'utiliser CodeFresh. Notre choix c'est porté vers cette plateforme car elle est classé n°1 des plateforme Devops pour application kubernetes et qu'elle s'intègre facilement à des outils comme Slack, Git et solutions cloud. De plus, dans le cadre de se projet, elle nous permet de créer facilement et en quelques clic des pipilines. 
+
+2. Detail du cout mensuel
+
+AWS + ECS
+
+CodeFresh
+
+Mongo Atlas
+
+
+3. Localisation du service Cloud 
+
+L'utilisation de AWS nous permet de stocker en Europe et en asie du fait de la localisation de leurs centres de données.
+
+4. Solution mongoDB
+
+Nous utiliseront la solution mongo Atlas
+
+5. Les limites
+
+6. Votre local (PC) est un cloud privé
+
 I/ Test unitaires :
     1. POST -> OK
     2. GET -> OK
