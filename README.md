@@ -27,52 +27,21 @@ version gratuite
  - Tableaux Kanban de libération de pipeline
  - Conservation des données pendant 6 mois
 
-Mongo Atlas (0$/mois)
+Mongo Atlas (0$/mois) en fonction de son utilisation 
 
 3. Localisation du service Cloud 
 
-L'utilisation de AWS nous permet de stocker en Europe et en asie du fait de la localisation de leurs centres de données.
+Nous utiliserons AWS afin de profiter d’une facilité d’utilisation et de documentation. 
+N’ayant pas de visibilité sur la quantité de donnée que nous utiliserons, AWS nous donne l’avantage de pouvoir anticipé une bonne évolutivité de notre application grâce à l’Auto Scaling tout en ne payant seulement les ressources utilisées.
+En terme de fiabilité, AWS a l’avantage d’être au cœur de l’organisation d’infrastructure de grands groupe tel que Netflix, garantissant la sécurité de nos opérations.
 
 4. Solution mongoDB
 
-La solution MongoDb Atlas a été retenue du fait de sa simplicité de connexion avec un service cloud et de la diffusion des données à travers le monde. De plus, elle dispose d'une version gratuite.
+La solution MongoDb Atlas a été retenue du fait de sa simplicité de connexion avec le service cloud d'Amazon et de la diffusion des données à travers le monde. De plus, elle dispose d'une version gratuite.
+De plus avec Atlas Global Cluster, nous pouvons repartir les clusters sur plusieurs pays
 
 5. Les limites
 
+Infrastructure a faible ressources
+
 6. Votre local (PC) est un cloud privé
-
-I/ Test unitaires :
-    1. POST -> OK
-    2. GET -> OK
-    3. PUT -> xxx
-    4. DELETE -> xxx
-
-II/ Mise en place de MongoDB
-    OK
-
-III/ Mise en place d'un CI/CD
-    ???
-
-IV/ Automatisation des tests
-    xxx
-
-V/ Dépot de code
-    xxx
-
-VI/ Plug de la stack CI/CD et Github
-    xxx
-
-VII/ Création d'un cloud client dans un cloud provider
-    OK
-
-VIII/ Déploiement d’un espace (VM free-tier type linux)
-    xxx
-
-IIX/ Configuration des accès à l’espace entre l’outil de CI/CD et la VM
-    xxx
-
-IX/ Si test ok déploiement dans la VM 
-    xxx
-    
-IIX/ Réaliser plusieurs pull request en créant des nouvelles route
-    xxx
